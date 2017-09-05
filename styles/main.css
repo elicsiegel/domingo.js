@@ -5,19 +5,19 @@ body {
   background: lightblue;
 }
 
-.outer-div {
-  display: flex; 
-}
-
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.form p {
+  margin-top: 0px;
+}
+
 .buttons {
   display: flex; 
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .buttons > * {
@@ -55,10 +55,20 @@ body {
 .gif-div {
   display: flex; 
   flex-direction: column;
+  align-items: center;
+}
+
+.gif-div h3 {
+  margin-bottom: 3px;
 }
 
 .gif-list {
   width: 500px;
+  justify-content: center;
+}
+
+.gif-box {
+  margin-top: 5px;
 }
 
 .gif-box img {
