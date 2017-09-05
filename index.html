@@ -2,25 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Domingo.js</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/jquery_lite.js">
+    <script type="text/javascript" src="lib/domingo.js">
     </script>
+    <script type="text/javascript" src="lib/todos.js">
+    </script>
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <h2>Hover text</h2>
-    <div class="div-1">
+    <h1>Domingo.js Todo App</h1>
+    <div class="form">
+      <input class="todo-input"></input>
+      <div class="buttons">
+        <div onclick="addTodo()" class="add-todo">
+          Add Todo!
+        </div>
+        <div onclick="clearTodos()">
+          Clear Todos!
+        </div>
+      </div>
     </div>
-    <div class="div-2">
-      <a href="#"></a>
+    <div class="todos-div">
+      <h4>Todos</h4>
+      <ul class='todo-items'>
+      </ul>
     </div>
-    <div id="last-div">
-
-    </div>
-    <ul>
-      <li></li>
-      <li></li>
-    </ul>
-    <a href="#"></a>
   </body>
 </html>

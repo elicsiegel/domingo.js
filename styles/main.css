@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex; 
+}
+
+.buttons > * {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.todo-items {
+  list-style: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.todos-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todos-div li {
+  min-width: 200px;
+  border: 1px solid black;
+  margin-bottom: 3px;
+}
