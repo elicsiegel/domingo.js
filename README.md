@@ -35,11 +35,17 @@ The Domingo.js library utilizes the global variable of `$l` as a wrapper for all
 
 `DOMNodeCollection` methods to navigate DOM elements
 
-#### `each` - Iterates through the elements in a `DOMNodeCollection` and applies a callback function passed as an argument
+#### `each` 
 
-#### `children` - Returns a `DOMNodeCollection` object containing all of the children elements of every `HTMLElement` in the original `DOMNodeCollection`.  Note that this only includes the direct children.
+Iterates through the elements in a `DOMNodeCollection` and applies a callback function passed as an argument
 
-#### `parent` - Returns a `DOMNodeCollection` object containing the parent elements of every `HTMLElement` in the original `DOMNodeCollection`.  
+#### `children`
+
+Returns a `DOMNodeCollection` object containing all of the children elements of every `HTMLElement` in the original `DOMNodeCollection`.  Note that this only includes the direct children.
+
+#### `parent`
+
+Returns a `DOMNodeCollection` object containing the parent elements of every `HTMLElement` in the original `DOMNodeCollection`.  
 
 ### DOM Manipulation - `DOMNodeCollection` methods to view and/or change DOM elements
 
@@ -47,26 +53,39 @@ The Domingo.js library utilizes the global variable of `$l` as a wrapper for all
 
 Returns the `innerHTML` for the first element in the `DOMNodeCollection` if no argument is given.  If a string argument is given, changes the `innerHTML` of each `DOMNodeCollection` element to the string argument.
 
-#### `empty` - Empties the innerHTML of each `DOMNodeCollection` element
+#### `empty` 
 
-#### `append` - Takes a single `HTMLElement`, `DOMNodeCollection`, or `string` argument and appends it to each `DOMNodeCollection` element.
+Empties the innerHTML of each `DOMNodeCollection` element
 
-#### `remove` - Remove each `DOMNodeCollection` element from the DOM.
+#### `append` 
+
+Takes a single `HTMLElement`, `DOMNodeCollection`, or `string` argument and appends it to each `DOMNodeCollection` element.
+
+#### `remove` 
+
+Remove each `DOMNodeCollection` element from the DOM.
 
 #### `attr`
 
 Takes either one (`attr(attribute)`) or two (`attr(attribute, value)`) arguments.  If given one argument, the method gets the value of the attribute given for the the first element in the `DOMNodeCollection`.  The method sets the attribute, given as the first argument, as the value, given as the second argument, for each `DOMNodeCollection` element.
 
-#### `addClass` - Adds a class, given as an argument, to each `DOMNodeCollection` element.
+#### `addClass` 
 
-#### `removeClass`- Removes a class, given as an argument, from each `DOMNodeCollection` element.
+Adds a class, given as an argument, to each `DOMNodeCollection` element.
 
+#### `removeClass` 
+
+Removes a class, given as an argument, from each `DOMNodeCollection` element.
 
 ### Event Listeners
 
-#### `on` - Adds event listener to each `DOMNodeCollection` element.  List of events are available [here](https://developer.mozilla.org/en-US/docs/Web/Events).
+#### `on`
 
-#### `off` - Removes event listener from each `DOMNodeCollection` element.
+Adds event listener to each `DOMNodeCollection` element.  List of events are available [here](https://developer.mozilla.org/en-US/docs/Web/Events).
+
+#### `off` 
+
+Removes event listener from each `DOMNodeCollection` element.
 
 ### $l.ajax
 
