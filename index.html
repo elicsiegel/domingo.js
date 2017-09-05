@@ -11,25 +11,42 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <h1>Domingo.js Todo App</h1>
-    <div class="form">
-      <input class="todo-input"></input>
-      <div class="buttons">
-        <div onclick="addTodo()" class="add-todo">
-          Add Todo!
+    <h1>Domingo.js Playground</h1>
+    <div class="outer-div">
+      <div class="todos-wrapper">
+        <div class="form">
+          <h3>Todo List</h3>
+          <input class="todo-input"></input>
+          <div class="buttons">
+            <div onclick="addTodo()" class="add-todo">
+              Add Todo!
+            </div>
+            <div onclick="clearTodos()">
+              Clear Todos!
+            </div>
+            <div onclick="colorizeTodos()">
+              Colorize Todos!
+            </div>
+          </div>
         </div>
-        <div onclick="clearTodos()">
-          Clear Todos!
-        </div>
-        <div onclick="colorizeTodos()">
-          Colorize Todos!
+        <div class="todos-div">
+          <h4>Todos</h4>
+          <ul class='todo-items'>
+            <li class="default-todo">None yet!</li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="todos-div">
-      <h4>Todos</h4>
-      <ul class='todo-items'>
-      </ul>
+      <div class='gif-div'>
+        <h3>Request a GIF!</h3>
+        <div class="buttons gif-list">
+          <div onclick="requestGif()">
+              Get your GIF!
+          </div>
+        </div>
+        <div class="gif-box">
+            <img>
+        </div>
+      </div> 
     </div>
   </body>
 </html>
