@@ -1,8 +1,14 @@
 body {
+  font-family: monospace;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: lightblue;
+  background: #3a9666;
+}
+
+#description {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .form {
@@ -73,4 +79,18 @@ body {
 
 .gif-box img {
   width: 200px;
+}
+
+.icon-box {
+  display: flex;
+}
+
+.icon-box img {
+  width: 20px;
+}
+
+.icon-box a {
+  cursor: pointer;
+  margin-right: 3px;
+  margin-left: 3px;
 }
