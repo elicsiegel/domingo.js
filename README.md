@@ -87,7 +87,7 @@ Adds event listener to each `DOMNodeCollection` element.  List of events are ava
 
 Removes event listener from each `DOMNodeCollection` element.
 
-### $l.ajax
+### Ajax
 
 Domingo.js also comes with an Ajax function, $l.ajax(options). By default, the options are provided but the use of $l.extend ensures that any options passed in are preserved.
 
