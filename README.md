@@ -1,5 +1,7 @@
 # Domingo.js
 
+[Live demo](http://elicsiegel.com/domingo.js)
+
 Domingo.js is a JavaScript DOM interaction library inspired by jQuery. 
 
 ## Getting Started
